@@ -43,30 +43,30 @@
     <name>hbase.cluster.distributed</name>
     <value>false</value>
   </property>
-  <property>
-    <name>hbase.tmp.dir</name>
-    <value>./tmp</value>
-  </property>
-  <property>
-    <name>hbase.unsafe.stream.capability.enforce</name>
-    <value>false</value>
-  </property>
+<!--  <property>-->
+<!--    <name>hbase.tmp.dir</name>-->
+<!--    <value>./tmp</value>-->
+<!--  </property>-->
+<!--  <property>-->
+<!--    <name>hbase.unsafe.stream.capability.enforce</name>-->
+<!--    <value>false</value>-->
+<!--  </property>-->
   <!--use local file to save data-->
-  <property>
-    <name>hbase.rootdir</name>
-    <value>file:///home/zhang/IdeaProjects/hbase/data/hbase-data</value>
-  </property>
-  <property>
-    <name>hbase.zookeeper.property.dataDir</name>
-    <value>/home/zhang/IdeaProjects/hbase/data/zookeeper-data</value>
-  </property>
-  <property>
-    <name>dfs.replication</name>
-    <value>1</value>
-  </property>
-  <property>
-    <name>hbase.zookeeper.quorum</name>
-    <value>localhost</value>
-  </property>
+<!--  <property>-->
+<!--    <name>hbase.rootdir</name>-->
+<!--    <value>file:///home/zhang/IdeaProjects/hbase/data/hbase-data</value>-->
+<!--  </property>-->
+<!--  <property>-->
+<!--    <name>hbase.zookeeper.property.dataDir</name>-->
+<!--    <value>/home/zhang/IdeaProjects/hbase/data/zookeeper-data</value>-->
+<!--  </property>-->
+<!--  <property>-->
+<!--    <name>dfs.replication</name>-->
+<!--    <value>1</value>-->
+<!--  </property>-->
+<!--  <property>-->
+<!--    <name>hbase.zookeeper.quorum</name>-->
+<!--    <value>localhost</value>-->
+<!--  </property>-->
   <!--end-->
 </configuration>
