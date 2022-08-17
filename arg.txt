@@ -23,3 +23,6 @@ org.jruby.Main
 -Dhbase.id.str=
 -Dhbase.root.logger=INFO,console
 -Dhbase.security.logger=INFO,NullAppender
+
+
+mvn clean package -DskipTests assembly:single
